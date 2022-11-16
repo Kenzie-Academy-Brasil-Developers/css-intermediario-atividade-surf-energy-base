@@ -1,4 +1,4 @@
-.bt {
+.button {
   padding: 0 12px;
   height: 32px;
   background-color: transparent;
@@ -12,20 +12,20 @@
   cursor: pointer;
 }
 
-.bt:hover {
+.button:hover {
   background-color: var(--color-grey-1);
-  color: var(--color-grey-4);;
+  color: var(--color-grey-4);
   cursor: pointer;
 }
 
-.bt.outline-light {
-  border-color: var(--color-grey-4);;
-  color: var(--color-grey-4);;
+.button.outline-light {
+  border-color: var(--color-grey-4);
+  color: var(--color-grey-4);
   height: 52px;
   font-size: var(--font-size-4);
 }
 
 .outline-light:hover {
-  background-color: var(--color-grey-4);;
+  background-color: var(--color-grey-4);
   color: var(--color-grey-1);
 }
